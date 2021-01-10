@@ -167,7 +167,7 @@ li a:hover {
 
 .btn-default a,
 .btn-default a:hover {
-	color:#00264D;
+	color:#00264D !important;
 	text-decoration: none;
 }
 
@@ -458,6 +458,8 @@ ul .uncircle{ list-style:none;}
 	overflow: auto;
 	background-color: rgb(0,0,0);
 	background-color: rgba(0,0,0,0.4);
+	text-transform: uppercase;
+	font-size:0.7em;
 }
 
 .navmodal-cont {
@@ -603,12 +605,17 @@ ul .uncircle{ list-style:none;}
 }
 
 .about-element {
-	background-color: #3a3a3a;
+	background-color: #4e4c4c;
+	opacity: 85%;
 	margin:5%;
 	width:280px;
 	height:280px;
 	text-align:center;
 	padding-top: 8%;
+}
+
+.contact-img {
+
 }
 
 /* Projects */
@@ -838,6 +845,10 @@ ul .uncircle{ list-style:none;}
 
 	.text1 {
 		font-size:17px;
+	}
+
+	.contact-img {
+		display:none;
 	}
 }
 
