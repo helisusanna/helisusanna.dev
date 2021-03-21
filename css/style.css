@@ -110,7 +110,7 @@ li a:hover {
 }
 
 .text-black h1,
-.text-blackh2,
+.text-black h2,
 .text-black h3,
 .text-black h4,
 .text-black h5,
@@ -210,7 +210,7 @@ li a:hover {
     padding:3px;
 	margin:10px;
 	background-color: transparent;
-    color:#00264D;
+    color:#004181;
     text-align:center;
     text-transform:uppercase;
     cursor:pointer;
@@ -248,7 +248,7 @@ li a:hover {
 }
 
 .btn-bigger:hover {
-	border-color: transparent;
+	border-color: #FF7EC1;
 	color:#FF7EC1;
 	transition-duration:1s;
 }
@@ -278,8 +278,8 @@ li a:hover {
 }
 
 .btn-bigger.portfolio:hover {
-	border-color: transparent;
-	background-color: transparent;
+	border-color: #FF7EC1;
+	background-color: #ededed;
 	color:#FF7EC1;
 	transition-duration:1s;
 }
